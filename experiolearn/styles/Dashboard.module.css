@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: block;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    display: flex;
+
+  }
+
+  
+  .form {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .desc {
+    flex: 1;
+    padding: 100px;
+    padding-right: 0;
+    display: inline-block;
+
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .title{
+    margin-left: 20%;
+  }
