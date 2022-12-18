@@ -1,7 +1,16 @@
-
+.container {
+  width: 100%;
+  height: calc(100vh - 50px);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+}
+  
   .auth-form-container, .login-form, .register-form {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
   
  
@@ -12,7 +21,7 @@
   
   .input {
     margin: 0.5rem 0;
-    padding: 1rem;
+    padding: 2rem;
     border: none;
     border-radius: 10px;
   }
