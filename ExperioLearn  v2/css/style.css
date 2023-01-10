@@ -252,3 +252,11 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
+
+/*****************************
+    Login Form
+******************************/
+.form-login{
+    bottom: 45%!important;
+}
+
